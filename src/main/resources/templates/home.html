@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BHEL Internship Portal</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background:#f4f6f9;
+        }
+
+        .navbar{
+            background:#003366;
+        }
+
+        .course-card{
+            transition:0.3s;
+        }
+
+        .course-card:hover{
+            transform:translateY(-5px);
+        }
+
+        .stat-card{
+            border:none;
+            border-radius:10px;
+        }
+
+        footer{
+            background:#003366;
+            color:white;
+            margin-top:60px;
+            padding:20px;
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark">
+    <div class="container">
+        <span class="navbar-brand fs-3">
+            BHEL Internship Portal
+        </span>
+    </div>
+</nav>
+
+<div class="container mt-5">
+
+    <div class="text-center mb-5">
+
+        <h1>Welcome to BHEL Internship Portal</h1>
+
+        <p class="fs-4 text-muted">
+            Learn • Practice • Get Certified
+        </p>
+
+        <a href="/register" class="btn btn-primary btn-lg me-2">
+            Student Register
+        </a>
+
+        <a href="/login" class="btn btn-success btn-lg me-2">
+            Student Login
+        </a>
+
+        <a href="/admin-login" class="btn btn-dark btn-lg">
+            Admin Login
+        </a>
+
+    </div>
+
+    <!-- Statistics Section -->
+
+    <div class="row text-center mb-5">
+
+        <div class="col-md-3">
+            <div class="card stat-card shadow p-3">
+                <h2 class="text-primary">500+</h2>
+                <p>Students Trained</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card stat-card shadow p-3">
+                <h2 class="text-success">50+</h2>
+                <p>Projects Completed</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card stat-card shadow p-3">
+                <h2 class="text-warning">95%</h2>
+                <p>Completion Rate</p>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card stat-card shadow p-3">
+                <h2 class="text-danger">100+</h2>
+                <p>Certificates Issued</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Courses -->
+
+    <h2 class="text-center mb-4">Internship Programs</h2>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card course-card shadow p-3">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, Spring Boot</p>
+
+                <span class="badge bg-success">
+                    Available
+                </span>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card course-card shadow p-3">
+                <h3>Java</h3>
+                <p>Core Java, JDBC, Spring Boot</p>
+
+                <span class="badge bg-warning text-dark">
+                    Coming Soon
+                </span>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card course-card shadow p-3">
+                <h3>Python & AIML</h3>
+                <p>Python, Machine Learning, Artificial Intelligence</p>
+
+                <span class="badge bg-warning text-dark">
+                    Coming Soon
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Features -->
+
+    <div class="mt-5">
+
+        <h2 class="text-center mb-4">
+            Portal Features
+        </h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="card shadow p-3">
+                    <h4>Online Application</h4>
+                    <p>
+                        Students can apply for internships digitally through the portal.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-3">
+                    <h4>Progress Tracking</h4>
+                    <p>
+                        Monitor course completion percentage and performance.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow p-3">
+                    <h4>Certificate Generation</h4>
+                    <p>
+                        Generate internship completion certificates automatically.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+
+    <h5>Bharat Heavy Electricals Limited (BHEL)</h5>
+
+    <p>
+        Internship Management System © 2026
+    </p>
+
+</footer>
+
+</body>
+</html>
